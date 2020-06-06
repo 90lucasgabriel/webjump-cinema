@@ -3,4 +3,42 @@
   padding: 0;
   outline: 0;
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background: #3f375e;
+  color: #fff;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 8px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  height: 85px;
+  align-items: center;
+}
+
+header .menu-container {
+  display: flex;
+  font-weight: 100;
+}
+
+header .menu-container div + div {
+  margin-left: 20px;
+}
+
+header .icons-container {
+  display: flex;
+}
+
+header .icons-container div + div {
+  margin-left: 20px;
 }
